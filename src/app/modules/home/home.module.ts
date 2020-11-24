@@ -7,6 +7,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 //componentes de material
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import { RegistroComponent } from './registro/registro.component';
 
 
 
@@ -15,7 +16,8 @@ import {MatInputModule} from '@angular/material/input';
     //traemos los subcomponentes creados
    
     HomeLoginComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    RegistroComponent
     
   ],
   imports: [

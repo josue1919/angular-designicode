@@ -1,0 +1,83 @@
+$Gcolor: #9aa2a9 ;
+.wrapper-home{
+
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+}
+
+// diseño para el area de la imagen
+
+.SectionImage{
+
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../../../../assets/images/Flautas.jpg');
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+
+    font-family: 'Patrick Hand', cursive;
+}
+
+.SectionImage span{
+    color: #fff;
+    font-size: 70px;
+}
+
+.SectionImage p{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    padding: 30px;
+}
+
+/*area par el diseño de los inputs*/
+
+.SectionInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.SectionInputs h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    color: #000;
+
+}
+
+.SectionInput_text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-left: 150px;
+    font-size: 20px;
+    color: $Gcolor;
+    margin-top: 40px;
+
+}
+.SectionInput_text-inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+  
+}
+
+
+.SectionInput_text-inputs section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}

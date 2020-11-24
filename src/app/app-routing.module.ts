@@ -8,9 +8,10 @@ const routes: Routes = [
     component:SkeletonComponent,
     children:[
       {
+        //inyectamos de rutas los componetes
         path:'',
         loadChildren:()=>
-        import ('@modules/user/user.module').then((m)=>m.UserModule)
+        import ('@modules/home/home.module').then((m)=>m.HomeModule)
       }
     ]
   }

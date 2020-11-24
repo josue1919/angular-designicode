@@ -4,6 +4,10 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeLoginComponent } from './home-login/home-login.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 
+//componentes de material
+import {MatButtonModule} from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
+
 
 
 @NgModule({
@@ -16,7 +20,10 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
   ],
   imports: [
     SharedModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    MatButtonModule,
+    MatInputModule
+    
   ]
 })
 export class HomeModule { }

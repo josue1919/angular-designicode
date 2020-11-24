@@ -1,4 +1,4 @@
-
+$Pcolor:#f44336;
 .container-fluid{
     // background-color: rgba(0,0,0,0.15);
     width: 100%;
@@ -46,6 +46,7 @@
 // }
 .skeletoninfo{
     background-color:#D50000;
+    // background-color: $Pcolor;
     width: 100%;
     height: 150px;
     border-bottom: 5px solid yellow;

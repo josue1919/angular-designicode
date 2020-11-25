@@ -7,13 +7,13 @@ $Pcolor:#f44336;
     background-color:#D50000;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color:yellow;
     border-bottom: 5px solid yellow;
     font-weight: 500;
     font-size: 40px;
-
+    box-shadow: 1px 1px 5px #000;
 }
 
 .navigation-home img{

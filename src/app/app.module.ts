@@ -11,6 +11,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import { UserskeletonComponent } from './layout/userskeleton/userskeleton.component';
 
 
 
@@ -19,7 +20,8 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     SkeletonComponent,
     FooterComponent,
-    NavigationComponent
+    NavigationComponent,
+    UserskeletonComponent
   ],
   imports: [
     BrowserModule,

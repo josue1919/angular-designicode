@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import *as fromComponents from './components'
+import *as fromComponents from './components';
+import { CardRecetaComponent } from './components/cards/card-receta/card-receta.component'
 
 @NgModule({
   imports: [
@@ -11,7 +12,7 @@ import *as fromComponents from './components'
     HttpClientModule,
     CommonModule
   ],
-  declarations: [...fromComponents.components],
+  declarations: [...fromComponents.components, CardRecetaComponent],
   exports:[
     FormsModule,
     ReactiveFormsModule,

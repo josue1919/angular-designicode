@@ -37,7 +37,7 @@
  }    
  
  .wrapper .sidebar ul li a{
-   color: #bdb8d7;
+   color: #fff;
    display: block;
  }
  
@@ -77,6 +77,8 @@
  .wrapper .main_content{
    width: 100%;
    margin-left: 200px;
+   background-color: #f0f2f5;
+   height: 100vh;
  }
  
  .wrapper .main_content .header{

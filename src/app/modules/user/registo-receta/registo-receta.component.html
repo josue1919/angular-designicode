@@ -1,1 +1,45 @@
-<p>registo-receta works!</p>
+<div class="Card_addreceta">
+    <div class="Card_addreceta-columns">
+        <section >
+            <mat-form-field class="example-full-width">
+                <mat-label>Nombre de la receta</mat-label>
+                <input matInput placeholder="Ex. Pizza">
+             </mat-form-field>
+        
+             <mat-form-field class="example-full-width">
+                <mat-label>Porciones</mat-label>
+                <input matInput placeholder="Ex. 10 personas">
+             </mat-form-field>
+             <mat-form-field  class = "example-full-width" > 
+                <mat-label > Ingredientes </mat-label > 
+                <textarea  matInput  placeholder = "Ex. ajo,sal,pimienta" > </textarea > 
+            </mat-form-field > 
+        
+          </section>
+        
+          <section >
+            <mat-form-field class="example-full-width">
+                <mat-label>Tiempo de preparacion</mat-label>
+                <input matInput placeholder="Ex. 20 minutos">
+             </mat-form-field>
+        
+             <mat-form-field class="example-full-width">
+                <mat-label>Costo MX</mat-label>
+                <input matInput placeholder="Ex. 100" type="number">
+             </mat-form-field>
+
+             <mat-form-field  class = "example-full-width" > 
+                <mat-label > Preparacion </mat-label > 
+                <textarea  matInput  placeholder = "Ex. ..." > </textarea > 
+             </mat-form-field > 
+          </section>
+        
+        
+    </div>
+  
+
+  <section class="Card_addreceta-text">
+           <button mat-raised-button  style="width: 200px; background-color: yellow;"  >Crear Receta</button>
+  </section>
+    
+</div>

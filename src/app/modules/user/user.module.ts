@@ -5,6 +5,9 @@ import { UserListComponent } from './user-list/user-list.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { UserRoutingModule } from './user-routing.module';
 import { RegistoRecetaComponent } from './registo-receta/registo-receta.component';
+import {MatStepperModule} from '@angular/material/stepper';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 
 
@@ -13,7 +16,10 @@ import { RegistoRecetaComponent } from './registo-receta/registo-receta.componen
   imports: [
     // CommonModule,
     SharedModule,
-    UserRoutingModule
+    UserRoutingModule,
+    MatStepperModule,
+    MatInputModule,
+    MatButtonModule
   ]
 })
 export class UserModule { }

@@ -11,6 +11,7 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatStepperModule} from '@angular/material/stepper';
 import { UserskeletonComponent } from './layout/userskeleton/userskeleton.component';
 
 
@@ -30,7 +31,8 @@ import { UserskeletonComponent } from './layout/userskeleton/userskeleton.compon
     SharedModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatStepperModule
   ],
   providers: [
     {    provide:LocationStrategy,

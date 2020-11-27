@@ -1,0 +1,29 @@
+.Card_addreceta{
+
+    width: 500px;
+    height: 400px;
+    box-shadow: rgba(0,0,0,0.1)0 0 10px;
+    background-color: #fff;
+   
+}
+
+.Card_addreceta-columns{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.Card_addreceta-columns section{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card_addreceta-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}

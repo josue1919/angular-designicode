@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireAuth} from '@angular/fire/auth';
+import firebase from 'firebase/app';
 
 @Component({
   selector: 'app-home-login',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeLoginComponent implements OnInit {
 
-  constructor() { }
+  constructor( public auth: AngularFireAuth ) {}
 
   ngOnInit(): void {
+  }
+  login() {
+    this.auth.signInWithEmailAndPassword('carmanu09@gmail.com','12345678');
   }
 
 }

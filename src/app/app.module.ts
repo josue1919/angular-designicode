@@ -10,7 +10,9 @@ import { SkeletonComponent } from './layout/skeleton/skeleton.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule} from '@angular/material/button';
+import { AngularFireModule } from "@angular/fire";
+import { environment } from 'environments/environment';
 
 
 
@@ -28,7 +30,8 @@ import {MatButtonModule} from '@angular/material/button';
     SharedModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [
     {    provide:LocationStrategy,

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "mirecetariomx": {
+      "hosting": {
+        "angular-designicode": [
+          "mirecetariomx"
+        ]
+      }
+    }
+  }
+}

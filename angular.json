@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "angular-designicode"
+  "defaultProject": "angular-designicode",
+  "cli": {
+    "analytics": false
+  }
 }
